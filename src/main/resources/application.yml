@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Certs-Easy
+  cloud:
+    function:
+      definition: processarCertificado
+
+dynamodb:
+  table-name: ${DYNAMODB_TABLE_NAME}
+
+cloudflare:
+  r2:
+    endpoint: ${CLOUDFLARE_R2_ENDPOINT}
+    access-key: ${CLOUDFLARE_R2_ACCESS_KEY}
+    secret-key: ${CLOUDFLARE_R2_SECRET_KEY}
+    bucket-name: ${CLOUDFLARE_R2_BUCKET_NAME}
+    public-domain: ${CLOUDFLARE_R2_PUBLIC_DOMAIN}
