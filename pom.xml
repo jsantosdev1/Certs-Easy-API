@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.jsantos</groupId>
-    <artifactId>certs-easy-api</artifactId>
+    <artifactId>Certs-Easy</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Certs Easy API</name>
     <description>API Serverless para gestão de certificados usando Clean Architecture.</description>
@@ -111,6 +111,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>CertsEasy-${project.version}-aws</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
