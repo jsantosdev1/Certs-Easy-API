@@ -120,7 +120,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>CertsEasy-${project.version}-aws</finalName>
+        <finalName>CertsEasy-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
